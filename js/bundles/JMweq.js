@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([10,14,15],[
+webpackJsonppageComponent([6,14,15],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -10783,12 +10783,16 @@ exports.default = parseFromAnchor;
 /* 91 */,
 /* 92 */,
 /* 93 */,
-/* 94 */
+/* 94 */,
+/* 95 */,
+/* 96 */,
+/* 97 */,
+/* 98 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dxcdH", function() { return dxcdH; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JMweq", function() { return JMweq; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -10800,15 +10804,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from nula.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace dxcdH.
+ * @fileoverview Templates in namespace JMweq.
  * @public
  */
 
-goog.module('dxcdH.incrementaldom');
+goog.module('JMweq.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -10842,20 +10846,20 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param253 = function() {
+  var param321 = function() {
     ie_open('h6');
-      var dyn21 = opt_data.page.description;
-      if (typeof dyn21 == 'function') dyn21(); else if (dyn21 != null) itext(dyn21);
+      var dyn25 = opt_data.page.description;
+      if (typeof dyn25 == 'function') dyn25(); else if (dyn25 != null) itext(dyn25);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
         itext('Lorem ipsum dolor sit amet');
       ie_close('h2');
-      $templateAlias2({code: 'var hello = function() {\n    console.log(\'Hello, World!\');\n};', mode: 'javascript'}, null, opt_ijData);
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
+      $templateAlias2({code: 'var oi = function() {\n    console.log(\'Oi mundo\');\n};', mode: 'javascript'}, null, opt_ijData);
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
@@ -10911,11 +10915,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param253}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param321}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'dxcdH.render';
+  $render.soyTemplateName = 'JMweq.render';
 }
 
 exports.render.params = ["page","site"];
@@ -10925,18 +10929,14 @@ return exports;
 
 });
 
-class dxcdH extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(dxcdH, templates);
+class JMweq extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(JMweq, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 95 */,
-/* 96 */,
-/* 97 */,
-/* 98 */,
 /* 99 */,
 /* 100 */,
 /* 101 */,
@@ -10977,7 +10977,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(dxcdH, templates);
 /* 136 */,
 /* 137 */,
 /* 138 */,
-/* 139 */
+/* 139 */,
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11009,9 +11010,9 @@ __webpack_require__(11);
 
 __webpack_require__(20);
 
-var _indexSoy = __webpack_require__(94);
+var _nulaSoy = __webpack_require__(98);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _nulaSoy2 = _interopRequireDefault(_nulaSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11021,23 +11022,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var dxcdH = function (_Component) {
-  _inherits(dxcdH, _Component);
+var JMweq = function (_Component) {
+  _inherits(JMweq, _Component);
 
-  function dxcdH() {
-    _classCallCheck(this, dxcdH);
+  function JMweq() {
+    _classCallCheck(this, JMweq);
 
-    return _possibleConstructorReturn(this, (dxcdH.__proto__ || Object.getPrototypeOf(dxcdH)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (JMweq.__proto__ || Object.getPrototypeOf(JMweq)).apply(this, arguments));
   }
 
-  return dxcdH;
+  return JMweq;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(dxcdH, _indexSoy2.default);
+_metalSoy2.default.register(JMweq, _nulaSoy2.default);
 
-exports.default = dxcdH;
+exports.default = JMweq;
 
 /***/ })
-],[139]);
+],[140]);
