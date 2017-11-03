@@ -10791,7 +10791,7 @@ exports.default = parseFromAnchor;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tOkIE", function() { return tOkIE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LwIIh", function() { return LwIIh; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -10807,11 +10807,11 @@ goog.loadModule(function(exports) {
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace tOkIE.
+ * @fileoverview Templates in namespace LwIIh.
  * @public
  */
 
-goog.module('tOkIE.incrementaldom');
+goog.module('LwIIh.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -10845,10 +10845,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param305 = function() {
+  var param321 = function() {
     ie_open('h6');
-      var dyn24 = opt_data.page.description;
-      if (typeof dyn24 == 'function') dyn24(); else if (dyn24 != null) itext(dyn24);
+      var dyn25 = opt_data.page.description;
+      if (typeof dyn25 == 'function') dyn25(); else if (dyn25 != null) itext(dyn25);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -10911,11 +10911,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param305}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param321}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'tOkIE.render';
+  $render.soyTemplateName = 'LwIIh.render';
 }
 
 exports.render.params = ["page","site"];
@@ -10925,8 +10925,8 @@ return exports;
 
 });
 
-class tOkIE extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(tOkIE, templates);
+class LwIIh extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(LwIIh, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
@@ -10976,9 +10976,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(tOkIE, templates);
 /* 138 */,
 /* 139 */,
 /* 140 */,
-/* 141 */,
-/* 142 */,
-/* 143 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11022,23 +11020,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var tOkIE = function (_Component) {
-  _inherits(tOkIE, _Component);
+var LwIIh = function (_Component) {
+  _inherits(LwIIh, _Component);
 
-  function tOkIE() {
-    _classCallCheck(this, tOkIE);
+  function LwIIh() {
+    _classCallCheck(this, LwIIh);
 
-    return _possibleConstructorReturn(this, (tOkIE.__proto__ || Object.getPrototypeOf(tOkIE)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (LwIIh.__proto__ || Object.getPrototypeOf(LwIIh)).apply(this, arguments));
   }
 
-  return tOkIE;
+  return LwIIh;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(tOkIE, _loremSoy2.default);
+_metalSoy2.default.register(LwIIh, _loremSoy2.default);
 
-exports.default = tOkIE;
+exports.default = LwIIh;
 
 /***/ })
-],[143]);
+],[141]);
