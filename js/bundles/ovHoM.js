@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([10,14,15],[
+webpackJsonppageComponent([4,14,15],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -10783,12 +10783,18 @@ exports.default = parseFromAnchor;
 /* 91 */,
 /* 92 */,
 /* 93 */,
-/* 94 */
+/* 94 */,
+/* 95 */,
+/* 96 */,
+/* 97 */,
+/* 98 */,
+/* 99 */,
+/* 100 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StrCd", function() { return StrCd; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ovHoM", function() { return ovHoM; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -10804,11 +10810,11 @@ goog.loadModule(function(exports) {
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace StrCd.
+ * @fileoverview Templates in namespace ovHoM.
  * @public
  */
 
-goog.module('StrCd.incrementaldom');
+goog.module('ovHoM.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -10842,23 +10848,23 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param253 = function() {
+  var param353 = function() {
     ie_open('h6');
-      var dyn21 = opt_data.page.description;
-      if (typeof dyn21 == 'function') dyn21(); else if (dyn21 != null) itext(dyn21);
+      var dyn27 = opt_data.page.description;
+      if (typeof dyn27 == 'function') dyn27(); else if (dyn27 != null) itext(dyn27);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
         itext('Lorem ipsum dolor sit amet');
       ie_close('h2');
-      $templateAlias2({code: 'var hello = function() {\n    console.log(\'Hello, World!\');\n};', mode: 'javascript'}, null, opt_ijData);
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
+      $templateAlias2({code: 'console.info(\'Hola Mundo\');', mode: 'javascript'}, null, opt_ijData);
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
@@ -10911,11 +10917,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param253}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param353}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'StrCd.render';
+  $render.soyTemplateName = 'ovHoM.render';
 }
 
 exports.render.params = ["page","site"];
@@ -10925,20 +10931,14 @@ return exports;
 
 });
 
-class StrCd extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(StrCd, templates);
+class ovHoM extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(ovHoM, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 95 */,
-/* 96 */,
-/* 97 */,
-/* 98 */,
-/* 99 */,
-/* 100 */,
 /* 101 */,
 /* 102 */,
 /* 103 */,
@@ -10977,7 +10977,13 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(StrCd, templates);
 /* 136 */,
 /* 137 */,
 /* 138 */,
-/* 139 */
+/* 139 */,
+/* 140 */,
+/* 141 */,
+/* 142 */,
+/* 143 */,
+/* 144 */,
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11009,7 +11015,7 @@ __webpack_require__(11);
 
 __webpack_require__(20);
 
-var _indexSoy = __webpack_require__(94);
+var _indexSoy = __webpack_require__(100);
 
 var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
@@ -11021,23 +11027,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var StrCd = function (_Component) {
-  _inherits(StrCd, _Component);
+var ovHoM = function (_Component) {
+  _inherits(ovHoM, _Component);
 
-  function StrCd() {
-    _classCallCheck(this, StrCd);
+  function ovHoM() {
+    _classCallCheck(this, ovHoM);
 
-    return _possibleConstructorReturn(this, (StrCd.__proto__ || Object.getPrototypeOf(StrCd)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (ovHoM.__proto__ || Object.getPrototypeOf(ovHoM)).apply(this, arguments));
   }
 
-  return StrCd;
+  return ovHoM;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(StrCd, _indexSoy2.default);
+_metalSoy2.default.register(ovHoM, _indexSoy2.default);
 
-exports.default = StrCd;
+exports.default = ovHoM;
 
 /***/ })
-],[139]);
+],[145]);

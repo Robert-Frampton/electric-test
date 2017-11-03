@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([5,14,15],[
+webpackJsonppageComponent([6,14,15],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -10787,13 +10787,12 @@ exports.default = parseFromAnchor;
 /* 95 */,
 /* 96 */,
 /* 97 */,
-/* 98 */,
-/* 99 */
+/* 98 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cslsl", function() { return cslsl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CUFOT", function() { return CUFOT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -10805,15 +10804,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from nula.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace cslsl.
+ * @fileoverview Templates in namespace CUFOT.
  * @public
  */
 
-goog.module('cslsl.incrementaldom');
+goog.module('CUFOT.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -10847,10 +10846,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param269 = function() {
+  var param321 = function() {
     ie_open('h6');
-      var dyn22 = opt_data.page.description;
-      if (typeof dyn22 == 'function') dyn22(); else if (dyn22 != null) itext(dyn22);
+      var dyn25 = opt_data.page.description;
+      if (typeof dyn25 == 'function') dyn25(); else if (dyn25 != null) itext(dyn25);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -10860,13 +10859,13 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
+      $templateAlias2({code: 'var oi = function() {\n    console.log(\'Oi mundo\');\n};', mode: 'javascript'}, null, opt_ijData);
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
-      $templateAlias2({code: 'alert(\'Hello World\');', mode: 'javascript'}, null, opt_ijData);
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
@@ -10916,11 +10915,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param269}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param321}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'cslsl.render';
+  $render.soyTemplateName = 'CUFOT.render';
 }
 
 exports.render.params = ["page","site"];
@@ -10930,14 +10929,15 @@ return exports;
 
 });
 
-class cslsl extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(cslsl, templates);
+class CUFOT extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(CUFOT, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 99 */,
 /* 100 */,
 /* 101 */,
 /* 102 */,
@@ -10978,11 +10978,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(cslsl, templates);
 /* 137 */,
 /* 138 */,
 /* 139 */,
-/* 140 */,
-/* 141 */,
-/* 142 */,
-/* 143 */,
-/* 144 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11014,9 +11010,9 @@ __webpack_require__(11);
 
 __webpack_require__(20);
 
-var _indexSoy = __webpack_require__(99);
+var _nulaSoy = __webpack_require__(98);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _nulaSoy2 = _interopRequireDefault(_nulaSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11026,23 +11022,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var cslsl = function (_Component) {
-  _inherits(cslsl, _Component);
+var CUFOT = function (_Component) {
+  _inherits(CUFOT, _Component);
 
-  function cslsl() {
-    _classCallCheck(this, cslsl);
+  function CUFOT() {
+    _classCallCheck(this, CUFOT);
 
-    return _possibleConstructorReturn(this, (cslsl.__proto__ || Object.getPrototypeOf(cslsl)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (CUFOT.__proto__ || Object.getPrototypeOf(CUFOT)).apply(this, arguments));
   }
 
-  return cslsl;
+  return CUFOT;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(cslsl, _indexSoy2.default);
+_metalSoy2.default.register(CUFOT, _nulaSoy2.default);
 
-exports.default = cslsl;
+exports.default = CUFOT;
 
 /***/ })
-],[144]);
+],[140]);
